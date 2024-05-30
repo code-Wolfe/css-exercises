@@ -4,24 +4,49 @@ body {
 }
 
 .card {
+  
   width: 400px;
   background: #fff;
   margin: 16px auto;
+
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+
+  margin-top: 0px;
+  margin-bottom:8px;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px; /*16px top and bottom, 8px on either side */
+
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 08px;
+
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+
+  display: block; /*Block-level elements take up the full width of their container by default and start on a new line*/
+  margin: 0 auto; /*top and bottom to zero, 
+  and right margins centers the block-level 
+  element horizontally within its parent container. */
+  padding: 8px 24px; /*16px top and bottom, 8px on either side */
+
+
+
+
 }
+
