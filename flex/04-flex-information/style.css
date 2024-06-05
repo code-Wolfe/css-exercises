@@ -24,3 +24,22 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+body{
+  text-align: center; /* centers text in every area, including title */
+}
+
+.title{
+  margin-bottom: 32px; /*32 px between the title and the items */
+}
+
+.container{
+  display:flex;
+  justify-content: center;
+  gap: 52px; /*52px between each item*/
+}
+
+.info{
+  max-width: 200px;
+}
